@@ -76,38 +76,38 @@ const DashboardPage = () => {
             </div>
 
             <div className='w-full mt-3 ml-6 flex justify-start'>
-                <a href='http://localhost:3000/hostel-Registration'>
+                <a href='https://hms-copy-3-build.vercel.app/hostel-Registration'>
                 <button className='bg-defaultBg w-32 h-8 border-2 border-slate-950 rounded-l-full rounded-r-full'>
                     <p className='font-popins text-normal'>+ Add Hostel</p>
                 </button>
                 </a>
 
-                <a href='http://localhost:3000/student-Registration'>
+                <a href='https://hms-copy-3-build.vercel.app/student-Registration'>
                 <button className='bg-defaultBg w-36 h-8 border-2 border-slate-950 rounded-l-full rounded-r-full ml-10'>
                     <p className='font-popins text-normal'>+ Add Student</p>
                 </button>
                 </a>
 
-                <a href='http://localhost:3000/tower-Registration'>
+                <a href='https://hms-copy-3-build.vercel.app/tower-Registration'>
                 <button className='bg-defaultBg w-32 h-8 border-2 border-slate-950 rounded-l-full rounded-r-full ml-10'>
                     <p className='font-popins text-normal'>+ Add Tower</p>
                 </button>
                 </a>
 
-                <a href='http://localhost:3000/wing-Registration'>
+                <a href='https://hms-copy-3-build.vercel.app/wing-Registration'>
                 <button className='bg-defaultBg w-32 h-8 border-2 border-slate-950 rounded-l-full rounded-r-full ml-10'>
                     <p className='font-popins text-normal'>+ Add Wing</p>
                 </button>
                 </a>
 
-                <a href='http://localhost:3000/room-Registration'>
+                <a href='https://hms-copy-3-build.vercel.app/room-Registration'>
                 <button className='bg-defaultBg w-32 h-8 border-2 border-slate-950 rounded-l-full rounded-r-full ml-10'>
                     <p className='font-popins text-normal'>+ Add Room</p>
                 </button>
                 </a>
             </div>
             <div className='w-full mt-3 ml-6 flex justify-start'>
-                <a href='http://localhost:3000/hostel-FormReview'>
+                <a href='https://hms-copy-3-build.vercel.app/hostel-FormReview'>
                 <button className='bg-defaultBg w-96 h-8 border-2 border-slate-950 rounded-l-full rounded-r-full'>
                     <p className='font-popins text-normal'>+ Review Hostel Registrations</p>
                 </button>
@@ -115,7 +115,7 @@ const DashboardPage = () => {
 
             </div>
             <div className='w-full mt-3 ml-6 flex justify-start'>
-                <a href='http://localhost:3000/student-FormReview'>
+                <a href='https://hms-copy-3-build.vercel.app/student-FormReview'>
                 <button className='bg-defaultBg w-96 h-8 border-2 border-slate-950 rounded-l-full rounded-r-full'>
                     <p className='font-popins text-normal'>+ Review Student Registartions</p>
                 </button>
