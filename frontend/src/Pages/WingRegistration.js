@@ -43,7 +43,7 @@ const TowerRegistartion = () => {
         const formErrors = validateForm();
         if (Object.keys(formErrors).length === 0) {
         console.log('Form submitted successfully!');
-        axios.post('http://localhost:7000/hostel/tower/wing', formData)
+        axios.post('https://posttest-5jqs.onrender.com/hostel/tower/wing', formData)
         .then((response) => {
             console.log('API response:', response.data);
         })

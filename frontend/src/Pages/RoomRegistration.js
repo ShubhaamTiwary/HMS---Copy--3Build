@@ -41,7 +41,7 @@ const TowerRegistartion = () => {
         const formErrors = validateForm();
         if (Object.keys(formErrors).length === 0) {
         console.log('Form submitted successfully!');
-        axios.post('http://localhost:7000/hostel/tower/wing', formData)
+        axios.post('https://posttest-5jqs.onrender.com/hostel/tower/wing', formData)
         .then((response) => {
             console.log('API response:', response.data);
         })
@@ -105,7 +105,7 @@ const TowerRegistartion = () => {
     const [hostel_name_and_id, setHostel_name_and_id] = useState([]);
     const hostel_name_and_id_fetch = async () => {
       try{
-        const response = await fetch("http://localhost:7000/gethostel_id/where/status_active",{
+        const response = await fetch("https://posttest-5jqs.onrender.com/gethostel_id/where/status_active",{
           method:"GET",
           headers:{"Content-Type":"application/json"},
         }); 

@@ -23,7 +23,7 @@ const HostelReviewForm = () => {
 
     const getAllSavedForms =async()=>{
         try{
-            const response = await fetch('http://localhost:7000/hostel/registration/saved', {
+            const response = await fetch('https://posttest-5jqs.onrender.com/hostel/registration/saved', {
                 method: 'GET',
                 headers: {
                 'Content-Type': 'application/json',
