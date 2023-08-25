@@ -47,9 +47,9 @@ const Dashboard = () => {
             </button>
         </div>
 
-
+        
         {/* All Buttons */}
-        <a href='http://localhost:3000/'>
+        <a href='https://hms-copy-3-build-au82.vercel.app/'>
         <div className='w-full flex flex-row justify-center mt-20'>
             <button className="bg-slate-100 w-2/3 bg-sl border-2 py-2 px-4 border-slate-950 rounded-l-full rounded-r-full">
                 <p className='w-full text-center font-popins text-sm text-slate-700'>Dashboard <p className='inline text-orange-400 text-base ml-1'>✦</p></p>
